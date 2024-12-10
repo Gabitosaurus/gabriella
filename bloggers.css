@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: georgia, serif;
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(rgb(246, 214, 214), rgb(240, 193, 225));
+  }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 100px;
+    border-radius: 100%;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: azure;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .lessons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .lessons h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:#CA7373;
+  }
+  .row p{
+    color: azure;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lessons-column{
+    flex-basis: 31%;
+    background:#F0A8D0;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  .lessons-highlight h3{
+    color:#F0A8D0;
+  }
+  .lessons-highlight{
+    flex-basis: 31%;
+    background:#CA7373;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  .lessons-highlight:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    transform: scale(1.1);
+  }
+  h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #CA7373;
+  }
+  .lessons-column:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    transform: scale(1.1);
+  }
+  .lesson{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .rows{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lesson-column{
+    flex-basis: 31%;
+    background:#F0A8D0;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 20px;
+  }
+  .lesson-column h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .lesson-column p{
+    text-align: justify;
+    color: azure;
+  }
+  .lesson-column:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    transform: scale(1.1);
+  }
+  .outputs{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .ha{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .output-col{
+    flex-basis: 31%;
+    background:#CA7373;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 20px;
+  }
+  .output-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    transform: scale(1.1);
+  }
+  .ha h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .ha img{
+    border-radius: 10px;
+    width: 100%;
+  }
+  .output-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color:#F0A8D0;
+  }
+  footer{
+    background-color:#F0A8D0;
+    color: azure;
+    text-align: center;
+    padding: 7px;
+    margin-top: 0rem;
+  }
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+  
+  
+
+  
+ 
+  
+  

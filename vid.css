@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: georgia, serif;
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(234, 206, 236, 0.459),rgba(239, 157, 255, 0.37)),url(wow.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#CA7373;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .hero-btn:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 1s;
+  }
+  .video{
+    padding: 60px 20px;
+    text-align: center;
+  }
+  footer{
+    background-color: #F0A8D0;
+    color: azure;
+    text-align: center;
+    padding: 7px;
+    margin-top: 0rem;
+  }
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
